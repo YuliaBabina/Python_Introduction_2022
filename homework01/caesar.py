@@ -1,6 +1,5 @@
 import typing as tp
 
-
 def encrypt_caesar(plaintext: str, shift: int = 3) -> str:
     upp, down = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', "abcdefghijklmnopqrstuvwxyz"
     d = {}
